@@ -38,13 +38,17 @@
             this.text1.Name = "text1";
             this.text1.Size = new System.Drawing.Size(279, 20);
             this.text1.TabIndex = 0;
+            this.text1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.text1.TextChanged += new System.EventHandler(this.textChange1);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(105, 94);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(279, 20);
             this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // UserControl1
             // 
